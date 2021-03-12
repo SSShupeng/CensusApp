@@ -9,7 +9,7 @@
 library(shiny)
 library(maps)
 library(mapproj)
-#source("census-app/helpers.R")
+source("helpers.R")
 percent_map(counties$white, "darkgreen", "% White")
 
 
