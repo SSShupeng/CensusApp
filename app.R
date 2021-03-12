@@ -18,7 +18,7 @@ counties <- readRDS("data/counties.rds")
 
 # User interface ----
 ui <- fluidPage(
-    titlePanel("censusVis"),
+    titlePanel("censusVisulization"),
     
     sidebarLayout(
         sidebarPanel(
