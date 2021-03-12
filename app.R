@@ -9,12 +9,15 @@
 library(shiny)
 library(maps)
 library(mapproj)
+
+# Load data ----
+counties <- readRDS("data/counties.rds")
+
 source("helpers.R")
 percent_map(counties$white, "darkgreen", "% White")
 
 
-# Load data ----
-counties <- readRDS("data/counties.rds")
+
 
 # User interface ----
 ui <- fluidPage(
